@@ -1,0 +1,56 @@
+html, body, .wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    /*background: url(../img/bg-tile.png) repeat; */
+    background-color: #eee;
+}
+
+.wrapper {
+    display: table;
+}
+
+.cell {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#holder {
+    width: 603px;
+    height: 383px;
+    margin: auto;
+}
+
+.cntSeparator {
+    display: none;
+}
+
+.cntDigit {
+    margin-bottom: 20px;
+}
+
+.cntDigit#cnt_0 {
+    margin-left: 52px;
+}
+
+.cntDigit#cnt_2 {
+    /*margin-left: 7px;*/
+}
+
+#digits {
+    display: -webkit-box;
+    /*display: -moz-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    margin-left: calc((100% - 300px) / 2);
+}
+
+#surrender {
+    margin: 12px 0;
+}
